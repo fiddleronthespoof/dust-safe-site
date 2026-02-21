@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
+  <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta name="robots" content="index,follow">
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.55;margin:0;color:#111}
+    header,main,footer{max-width:980px;margin:0 auto;padding:20px}
+    nav a{margin-right:14px;text-decoration:none}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .card{border:1px solid #e6e6e6;border-radius:12px;padding:14px}
+    .muted{color:#444}
+    a{color:#0b57d0}
+  </style>
+</head>
+<body>
+<header>
+  <div><strong><a href="/" style="text-decoration:none;color:inherit">{{ site.Title }}</a></strong></div>
+  <div class="muted">{{ site.Params.description }}</div>
+  <nav style="margin-top:10px">
+    <a href="/tasks/">Tasks</a>
+    <a href="/kit/">Kit Guides</a>
+    <a href="/compliance/">Compliance</a>
+  </nav>
+</header>
+
+<main>
+  {{ block "main" . }}{{ end }}
+</main>
+
+<footer class="muted">
+  <div>© {{ now.Year }} Dust Safe Site</div>
+</footer>
+</body>
+</html>
