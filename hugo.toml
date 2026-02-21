@@ -1,4 +1,4 @@
-baseURL = "https://example.netlify.app/"
+baseURL = "https://stellar-gumption-cc1222.netlify.app/"
 languageCode = "en-gb"
 title = "Dust Safe Site"
 enableRobotsTXT = true
