@@ -1,0 +1,12 @@
+baseURL = "https://example.netlify.app/"
+languageCode = "en-gb"
+title = "Dust Safe Site"
+enableRobotsTXT = true
+
+[params]
+  description = "UK task-by-task silica dust (RCS) control for construction sites. Practical methods, kit stacks, and plain-English compliance notes."
+
+[permalinks]
+  tasks = "/tasks/:slug/"
+  kit = "/kit/:slug/"
+  compliance = "/compliance/:slug/"
