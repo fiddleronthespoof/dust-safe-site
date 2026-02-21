@@ -1,0 +1,45 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "tasks"
+    label: "Task Pages"
+    folder: "content/tasks"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Task Category", name: "task_category", widget: "select", options: ["cutting","grinding","chasing","drilling","demolition","cleanup","confined-spaces"] }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "kit"
+    label: "Kit Guides"
+    folder: "content/kit"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Kit Type", name: "kit_type", widget: "select", options: ["dust-extraction","rpe","shrouds","filters","wet-cutting","air-scrubbers"] }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "compliance"
+    label: "Compliance"
+    folder: "content/compliance"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Body", name: "body", widget: "markdown" }
