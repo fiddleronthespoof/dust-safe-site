@@ -15,14 +15,15 @@ collections:
     filter: { field: "content_type", value: "task" }
     slug: "{{slug}}"
     fields:
+      - { label: "Content type", name: "content_type", widget: "hidden", default: "task" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { label: "Task Category", name: "task_category", widget: "select", options: ["cutting","grinding","chasing","drilling","demolition","cleanup","confined-spaces"] }
       - { label: "Body", name: "body", widget: "markdown" }
-       
-        - name: "section_hubs"
+
+  - name: "section_hubs"
     label: "Section Hubs"
     files:
       - file: "content/_index.md"
@@ -56,7 +57,7 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown", required: false }
-
+          
   - name: "kit"
     label: "Kit Guides"
     folder: "content/kit"
