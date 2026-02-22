@@ -11,8 +11,17 @@
 
 <h2 style="margin-top:22px">Start here</h2>
 <ul>
-  {{ range first 5 (where site.RegularPages "Section" "tasks").ByDate.Reverse }}
+  {{ range first 5 (where site.RegularPages "Section" "tasks") .ByDate.Reverse }}
     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
   {{ end }}
 </ul>
+
+{{ if .Content }}
+<hr style="margin:32px 0" />
+<h2>Resources</h2>
+<div class="resources">
+  {{ .Content }}
+</div>
+{{ end }}
+
 {{ end }}
