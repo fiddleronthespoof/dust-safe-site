@@ -5,6 +5,7 @@ description: Practical ways to control silica dust when grinding concrete on
   wrong, and a simple baseline setup.
 date: 2026-02-22T00:34:00.000+00:00
 draft: false
+content_type: "task"
 task_category: grinding
 ---
 ## The problem
