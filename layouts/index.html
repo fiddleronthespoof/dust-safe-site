@@ -11,7 +11,8 @@
 
 <h2 style="margin-top:22px">Start here</h2>
 <ul>
-  {{ range first 5 ((where site.RegularPages "Section" "tasks") | sort "Date" "desc") }}
+  {{ $tasks := where site.RegularPages "Section" "tasks" }}
+  {{ range first 5 ($tasks.ByDate.Reverse) }}
     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
   {{ end }}
 </ul>
