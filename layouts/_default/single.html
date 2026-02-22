@@ -4,47 +4,47 @@
   {{ with .Params.description }}<p class="muted">{{ . }}</p>{{ end }}
 
   {{ if eq .Section "tasks" }}
-  <div style="margin:18px 0; padding:14px 16px; border:1px solid #e6e6e6; border-radius:10px; background:#fafafa;">
-    <strong>Printable checklist pack</strong><br />
-    Download: <a href="/downloads/indoor-dust-control-5-checklists-uk.pdf">Indoor Dust Control – 5 Quick Checklists (UK)</a>
-  </div>
+    <div style="margin:18px 0; padding:14px 16px; border:1px solid #e6e6e6; border-radius:10px; background:#fafafa;">
+      <strong>Printable checklist pack</strong><br />
+      Download: <a href="/downloads/indoor-dust-control-5-checklists-uk.pdf">Indoor Dust Control – 5 Quick Checklists (UK)</a>
+    </div>
   {{ end }}
 
   {{ .Content }}
 
-  <section style="margin-top: 48px; padding-top: 24px; border-top: 1px solid #eee;">
-    <h3>Related tasks</h3>
-    <ul>
-      {{ $current := . }}
-      {{ $cat := .Params.task_category }}
+  {{ if eq .Section "tasks" }}
+    <section style="margin-top: 48px; padding-top: 24px; border-top: 1px solid #eee;">
+      <h3>Related tasks</h3>
+      <ul>
+        {{ $current := . }}
+        {{ $cat := .Params.task_category }}
 
-      {{ $allTasks := where site.RegularPages "Section" "tasks" }}
-      {{ $sameCat := slice }}
-      {{ $otherCat := slice }}
+        {{ $allTasks := where site.RegularPages "Section" "tasks" }}
+        {{ $sameCat := slice }}
+        {{ $otherCat := slice }}
 
-      {{ if $cat }}
-        {{ $sameCat = where $allTasks ".Params.task_category" $cat }}
-        {{ $sameCat = where $sameCat "Permalink" "ne" $current.Permalink }}
-        {{ $otherCat = where $allTasks ".Params.task_category" "ne" $cat }}
-        {{ $otherCat = where $otherCat "Permalink" "ne" $current.Permalink }}
-      {{ else }}
-        {{ $otherCat = where $allTasks "Permalink" "ne" $current.Permalink }}
-      {{ end }}
+        {{ if $cat }}
+          {{ $sameCat = where $allTasks ".Params.task_category" $cat }}
+          {{ $sameCat = where $sameCat "Permalink" "ne" $current.Permalink }}
+          {{ $otherCat = where $allTasks ".Params.task_category" "ne" $cat }}
+          {{ $otherCat = where $otherCat "Permalink" "ne" $current.Permalink }}
+        {{ else }}
+          {{ $otherCat = where $allTasks "Permalink" "ne" $current.Permalink }}
+        {{ end }}
 
-      {{ $same := first 4 ($sameCat.ByDate.Reverse) }}
-      {{ range $same }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-      {{ end }}
-
-      {{ $need := sub 4 (len $same) }}
-      {{ if gt $need 0 }}
-        {{ range first $need ($otherCat.ByDate.Reverse) }}
+        {{ $same := first 4 ($sameCat.ByDate.Reverse) }}
+        {{ range $same }}
           <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
         {{ end }}
-      {{ end }}
-    </ul>
-  </section>
-</article>
-{{ end }}
+
+        {{ $need := sub 4 (len $same) }}
+        {{ if gt $need 0 }}
+          {{ range first $need ($otherCat.ByDate.Reverse) }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </section>
+  {{ end }}
 </article>
 {{ end }}
