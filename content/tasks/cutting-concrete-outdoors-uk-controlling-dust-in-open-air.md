@@ -1,103 +1,104 @@
 ---
-content_type: task
-title: "Cutting concrete outdoors (UK): controlling dust in open air"
-description: Practical ways to control silica dust when cutting concrete
-  outdoors on UK jobs. What actually helps in the open air, what people get
-  wrong, and a simple baseline setup.
-date: 2026-02-22T15:00:00.000+00:00
+title: "Cutting paving slabs and flags (UK): keeping dust and mess under control"
+description: Practical ways to control dust when cutting paving slabs and flags
+  on UK jobs. What actually helps outdoors and near buildings, what to avoid,
+  and a simple baseline setup.
+date: 2026-02-22T15:02:00.000+00:00
 draft: false
 task_category: cutting
 ---
 ## The problem
 
-Cutting concrete outdoors often feels safer because the dust “has somewhere to go.” The open air creates a false sense of control. Dust still hangs in the air around the cut, settles on nearby surfaces, and drifts into adjacent buildings, vehicles, and work areas.
+Cutting paving slabs and flags creates a surprising amount of fine dust. The materials are dense, the cuts are often long, and the work is usually done near finished areas, doorways, or neighbouring properties.
 
-Because it’s outside, controls are often relaxed. Extraction gets left in the van. Wet cutting is skipped because it’s inconvenient. The result is people working in visible dust clouds with the assumption that fresh air solves it.
+Because this work is often done outdoors, dust control gets treated as optional. Cuts are made dry, right next to open doors or windows, and the plume drifts wherever the wind decides.
 
-Common ways outdoor cutting goes wrong:
+Common ways slab cutting goes wrong:
 
-- Dry cutting with no extraction because “it’s outside.”
-- Cutting near open doors, windows, or vents where dust drifts indoors.
-- Working downwind of other people or occupied areas.
+- Dry cutting with no suppression because “it’s outside.”
+- Cutting next to open doors, windows, or air vents.
+- Letting slurry and dust run across finished paving or walkways.
 
-## What “good” looks like on outdoor cutting
+The result is dust settling on nearby surfaces and drifting into buildings that were meant to stay clean.
 
-Good control outdoors is about respecting where dust travels, not just where it’s created:
+## What “good” looks like on slab and flag cutting
 
-- Dust is controlled at source, not just diluted by air movement.
-- The cut is positioned to minimise drift toward people or buildings.
-- Work is planned so dust doesn’t blow into open structures or vehicles.
+Good control when cutting slabs is about managing where dust and slurry go:
 
-Outdoor work can still be done with sensible controls without turning the job into a full containment exercise.
+- Dust is suppressed at source.
+- Cuts are positioned away from buildings and people.
+- The surrounding area is protected from overspray, slurry, and settled dust.
+
+This keeps the mess local to the cut, instead of spreading it across the site or into adjacent spaces.
 
 ## Practical controls that actually help
 
-These controls make a noticeable difference when cutting concrete outdoors:
-
-- **On-tool extraction**  
-  Shrouds and extractors still work outdoors. They reduce the dust cloud at source instead of letting it drift.
+These controls make a noticeable difference when cutting slabs and flags:
 
 - **Wet cutting where appropriate**  
-  Wet cutting suppresses dust effectively outdoors. Manage runoff and slurry so it doesn’t create slip hazards or spread mess.
+  Wet cutting suppresses dust effectively. Manage water and slurry so it doesn’t spread across finished surfaces.
 
-- **Positioning and wind awareness**  
-  Set up the cut so the dust plume is directed away from people, doors, windows, and vents. Even a light breeze matters.
+- **On-tool extraction**  
+  Shrouds and extractors can be used on some saws to reduce the dust plume, especially for dry cuts.
 
-- **Distance from buildings**  
-  Where possible, cut away from building entrances and open windows to stop dust being pulled indoors.
+- **Positioning away from buildings**  
+  Set up the cutting station away from doors, windows, and vents to prevent dust being drawn indoors.
 
-- **Staged cutting**  
-  Break longer cuts into shorter stages to limit continuous dust generation and give time for dust to settle.
+- **Protect nearby surfaces**  
+  Use boards, sheeting, or mats to protect finished paving and thresholds from slurry and dust.
+
+- **Cut in stages**  
+  Breaking long cuts into stages gives time for dust to settle and reduces continuous plume generation.
 
 ## What to avoid
 
-- **Assuming fresh air equals control**  
-  Outdoor air movement spreads dust. It doesn’t remove it.
-
-- **Cutting next to open doors or windows**  
-  This pulls dust straight into buildings.
-
-- **Dry cutting without considering wind direction**  
-  People downwind get the worst exposure.
+- **Dry cutting next to open buildings**  
+  This draws dust straight into clean spaces.
 
 - **Letting slurry run across walkways**  
-  Wet cutting without managing runoff creates slip hazards and secondary mess.
+  Slurry spreads mess and becomes slip hazards when wet and dust when dry.
+
+- **Cutting downwind of other people**  
+  Wind direction matters more than most people realise.
+
+- **Leaving dust to “wash away later”**  
+  Settled dust often ends up being tracked indoors before it’s cleaned.
 
 ## PPE: where it fits (and where it doesn’t)
 
-Respiratory protection still matters outdoors, especially close to the cut. PPE helps the person cutting but does nothing for people downwind or nearby.
+Respiratory protection helps the person cutting but does nothing for people nearby or for dust settling on surrounding surfaces.
 
-If dust is clearly visible around the cut, control at source should be improved before relying on PPE alone.
+If people nearby are visibly in the dust plume, controls at source and positioning should be improved before relying on PPE alone.
 
 ## A simple baseline setup
 
-For most outdoor concrete cutting jobs, a workable baseline looks like this:
+For most slab and flag cutting jobs, a workable baseline looks like this:
 
-- Tool fitted with shroud and extraction, or wet cutting used
-- Cut positioned away from doors, windows, and people
+- Wet cutting used where practical, with controlled slurry
+- Cutting station set away from buildings and people
+- Nearby surfaces protected from slurry and dust
 - Wind direction considered before starting
-- Slurry and runoff managed if wet cutting is used
-- Area tidied after cutting to remove settled dust
+- Area cleaned after cutting to remove settled dust
 
-This setup keeps most outdoor cutting work from becoming a nuisance to others or drifting indoors.
+This keeps the mess local to the cutting area and reduces complaints from nearby occupants.
 
 ## UK context 
 
-In the UK, controlling silica dust is expected wherever reasonably practicable, indoors and outdoors. The fact that work is outside doesn’t remove the need for control. The expectation is that sensible, proportionate measures are used to limit dust at source and prevent it affecting others.
+In the UK, controlling dust from cutting concrete and stone products is expected wherever reasonably practicable. Being outdoors doesn’t remove the responsibility to control dust at source or to prevent it affecting others.
 
-If dust is drifting into buildings or across work areas, the controls are likely below what would be considered reasonable.
+If dust is drifting into buildings or across occupied areas, the controls are likely below what would be considered reasonable.
 
 ## Quick checklist
 
-- Extraction or wet cutting in place
-- Cut positioned away from doors/windows
+- Wet cutting or extraction in use
+- Cutting station positioned away from doors/windows
 - Wind direction considered
-- Slurry/runoff managed
-- Area tidied after cutting
+- Slurry and dust managed
+- Area cleaned after cutting
 
-If you can tick all five, most outdoor cutting jobs stay contained and don’t become everyone else’s problem.
+Ticking these five keeps most paving slab cutting jobs from becoming everyone else’s problem.
 
 ## Optional CTA
 
-**Want a one-page outdoor cutting dust checklist you can print and keep in the van?**  
+**Want a one-page slab cutting dust checklist you can print and keep in the van?**  
 We’re building simple task guides for common dusty jobs on UK sites.
