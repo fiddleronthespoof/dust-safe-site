@@ -2,6 +2,14 @@
 <article>
   <h1>{{ .Title }}</h1>
   {{ with .Params.description }}<p class="muted">{{ . }}</p>{{ end }}
+
+  {{ if eq .Section "tasks" }}
+  <div style="margin:18px 0; padding:14px 16px; border:1px solid #e6e6e6; border-radius:10px; background:#fafafa;">
+    <strong>Printable checklist pack</strong><br />
+    Download: <a href="/downloads/indoor-dust-control-5-checklists-uk.pdf">Indoor Dust Control – 5 Quick Checklists (UK)</a>
+  </div>
+  {{ end }}
+
   {{ .Content }}
 
   <section style="margin-top: 48px; padding-top: 24px; border-top: 1px solid #eee;">
@@ -36,5 +44,7 @@
       {{ end }}
     </ul>
   </section>
+</article>
+{{ end }}
 </article>
 {{ end }}
