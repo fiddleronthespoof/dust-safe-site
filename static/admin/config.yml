@@ -12,6 +12,7 @@ collections:
     label: "Task Pages"
     folder: "content/tasks"
     create: true
+    filter: { field: "content_type", value: "task" }
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
