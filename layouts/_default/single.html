@@ -8,11 +8,30 @@
     <h3>Related tasks</h3>
     <ul>
       {{ $current := . }}
-      {{ range first 4 (where site.RegularPages "Section" "tasks") }}
-        {{ if ne .Permalink $current.Permalink }}
-          <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          </li>
+      {{ $cat := .Params.task_category }}
+
+      {{ $allTasks := where site.RegularPages "Section" "tasks" }}
+      {{ $sameCat := slice }}
+      {{ $otherCat := slice }}
+
+      {{ if $cat }}
+        {{ $sameCat = where $allTasks ".Params.task_category" $cat }}
+        {{ $sameCat = where $sameCat "Permalink" "ne" $current.Permalink }}
+        {{ $otherCat = where $allTasks ".Params.task_category" "ne" $cat }}
+        {{ $otherCat = where $otherCat "Permalink" "ne" $current.Permalink }}
+      {{ else }}
+        {{ $otherCat = where $allTasks "Permalink" "ne" $current.Permalink }}
+      {{ end }}
+
+      {{ $same := first 4 ($sameCat.ByDate.Reverse) }}
+      {{ range $same }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+
+      {{ $need := sub 4 (len $same) }}
+      {{ if gt $need 0 }}
+        {{ range first $need ($otherCat.ByDate.Reverse) }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
         {{ end }}
       {{ end }}
     </ul>
