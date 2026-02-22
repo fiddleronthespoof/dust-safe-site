@@ -5,6 +5,7 @@ description: Practical, site-tested ways to control silica dust when cutting
   people safe without slowing the job down.
 date: 2026-02-22T00:20:00.000+00:00
 draft: false
+content_type: "task"
 task_category: cutting
 ---
 ## The problem
