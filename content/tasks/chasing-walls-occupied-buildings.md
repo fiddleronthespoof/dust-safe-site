@@ -3,6 +3,7 @@ title: "Chasing walls in occupied buildings (UK): dust control that actually wor
 description: "Practical ways to control silica dust when chasing walls in homes and occupied spaces."
 date: 2026-02-21T09:00:00Z
 draft: false
+content_type: "task"
 slug: "chasing-walls-occupied-buildings"
 task_category: "chasing"
 ---
