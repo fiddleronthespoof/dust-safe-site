@@ -4,6 +4,13 @@
   {{ with .Params.description }}<p class="muted">{{ . }}</p>{{ end }}
 
   {{ if eq .Section "tasks" }}
+    <p style="margin:6px 0 14px 0; font-size:0.95em;">
+      Printable checklist available for this type of work (PDF): 
+      <a href="/downloads/indoor-dust-control-5-checklists-uk.pdf">download</a>
+    </p>
+  {{ end }}
+  
+  {{ if eq .Section "tasks" }}
     <div style="margin:18px 0; padding:14px 16px; border:1px solid #e6e6e6; border-radius:10px; background:#fafafa;">
      <strong>Printable checklist pack</strong><br />
      Download: <a href="/downloads/indoor-dust-control-5-checklists-uk.pdf">Indoor Dust Control – 5 Quick Checklists (UK)</a>
