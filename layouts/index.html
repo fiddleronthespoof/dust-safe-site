@@ -11,8 +11,8 @@
 
 <h2 style="margin-top:22px">Start here</h2>
 <ul>
-  <li><a href="/tasks/cutting-concrete-indoors/">Cutting concrete indoors</a></li>
-  <li><a href="/tasks/grinding-concrete-small-jobs/">Grinding concrete (small jobs)</a></li>
-  <li><a href="/tasks/chasing-walls-occupied-buildings/">Chasing walls in occupied buildings</a></li>
+  {{ range first 5 (where site.RegularPages "Section" "tasks").ByDate.Reverse }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
 </ul>
 {{ end }}
