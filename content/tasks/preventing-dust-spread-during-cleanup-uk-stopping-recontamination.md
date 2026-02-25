@@ -10,6 +10,9 @@ task_category: cleanup
 
 Cleanup is often the moment when dust spreads the most. Walking through contaminated areas, moving tools, and opening doors stirs settled dust back into the air and carries it into clean spaces.
 
+**Printable checklist for this type of work (PDF):**  
+👉 [Indoor Dust Control – 5 Quick Checklists (UK)](/downloads/indoor-dust-control-5-checklists-uk.pdf)
+
 Even well-controlled dusty work can be undone by careless cleanup. Dust gets tracked on boots, transferred on tools, and re-suspended by sweeping and movement. The building ends up dusty in areas that were never part of the work zone.
 
 Common ways dust spread happens during cleanup:
