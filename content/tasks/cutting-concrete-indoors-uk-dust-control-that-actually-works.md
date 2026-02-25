@@ -93,6 +93,14 @@ In the UK, employers are expected to control exposure to respirable crystalline 
 
 If you’re cutting concrete indoors without extraction, you’re likely below what’s considered reasonable control on a modern site.
 
+---
+
+### Related dust control guides
+
+- [Grinding concrete (small jobs, UK)](/tasks/grinding-concrete-small-jobs-uk/)
+- [Drilling concrete indoors (UK)](/tasks/drilling-concrete-indoors/)
+- [Preventing dust spread during cleanup (UK)](/tasks/preventing-dust-spread-during-cleanup/)
+
 ## Quick checklist
 
 - Tool has a shroud
