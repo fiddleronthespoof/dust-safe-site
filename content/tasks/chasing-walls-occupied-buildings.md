@@ -94,6 +94,14 @@ In the UK, employers are expected to control exposure to respirable crystalline 
 
 ---
 
+### Related dust control guides
+
+- [Cutting concrete indoors (UK)](/tasks/cutting-concrete-indoors/)
+- [Drilling anchors and fixings (UK)](/tasks/drilling-anchors-and-fixings/)
+- [Cleaning down rooms after dusty work (UK)](/tasks/cleaning-down-rooms-after-dusty-work/)
+
+---
+
 ## Quick checklist (printable)
 
 - Chaser has a full shroud  
