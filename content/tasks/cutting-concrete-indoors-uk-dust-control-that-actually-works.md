@@ -1,16 +1,19 @@
 ---
+content_type: task
 title: "Cutting concrete indoors (UK): dust control that actually works"
 description: Practical, site-tested ways to control silica dust when cutting
   concrete indoors on UK jobs. What to use, what to avoid, and how to keep
   people safe without slowing the job down.
 date: 2026-02-22T00:20:00.000+00:00
 draft: false
-content_type: "task"
 task_category: cutting
 ---
 ## The problem
 
 Cutting concrete indoors creates fine silica dust. You don’t see it at first. You taste it later. It lingers in rooms, travels down corridors, and settles in lungs that were never asked for the job.
+
+**Printable checklist for this type of work (PDF):**  
+👉 [Indoor Dust Control – 5 Quick Checklists (UK)](/downloads/indoor-dust-control-5-checklists-uk.pdf)
 
 Most indoor cutting goes wrong for three reasons:
 
