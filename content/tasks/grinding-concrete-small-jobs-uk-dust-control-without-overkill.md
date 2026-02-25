@@ -92,6 +92,15 @@ In the UK, silica dust is a known health risk and expected to be controlled wher
 
 If you wouldn’t accept a room full of dust at the end of the job, the controls probably weren’t good enough during it either.
 
+---
+
+### Related dust control guides
+
+- [Cutting concrete indoors (UK)](/tasks/cutting-concrete-indoors/)
+- [Edge grinding concrete (UK)](/tasks/edge-grinding-concrete/)
+- [Surface grinding concrete floors (UK)](/tasks/surface-grinding-concrete-floors/)
+- [Vacuuming fine dust on site (UK)](/tasks/vacuuming-fine-dust-on-site/)
+
 ## Quick checklist
 
 - Grinder has a shroud fitted
