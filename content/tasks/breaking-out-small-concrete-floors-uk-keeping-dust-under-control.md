@@ -12,6 +12,9 @@ task_category: demolition
 
 Breaking out small sections of concrete floors often feels like low-risk work. A channel for services, a patch repair, a doorway threshold. The tools are smaller, the area is limited, and the job is over quickly.
 
+**Printable checklist for this type of work (PDF):**  
+👉 [Indoor Dust Control – 5 Quick Checklists (UK)](/downloads/indoor-dust-control-5-checklists-uk.pdf)
+
 But the dust is the same dust as any larger breakout. Fine concrete particles are thrown into the air, settle across the room, and drift into adjoining spaces. Because the work is “small,” controls are often skipped or improvised.
 
 Common ways small floor breakout goes wrong:
