@@ -1,16 +1,19 @@
 ---
+content_type: task
 title: "Grinding concrete (small jobs, UK): dust control without overkill"
 description: Practical ways to control silica dust when grinding concrete on
   small indoor and outdoor jobs in the UK. What actually helps, what people get
   wrong, and a simple baseline setup.
 date: 2026-02-22T00:34:00.000+00:00
 draft: false
-content_type: "task"
 task_category: grinding
 ---
 ## The problem
 
 Small grinding jobs create a lot of fine dust for the amount of time they take. A quick tidy-up, a door trim, a small patch grind. Because the job feels minor, the controls often are too.
+
+**Printable checklist for this type of work (PDF):**  
+👉 [Indoor Dust Control – 5 Quick Checklists (UK)](/downloads/indoor-dust-control-5-checklists-uk.pdf)
 
 The dust doesn’t care whether the job is “small.” The particles are the same size, and they hang in the air just as long.
 
