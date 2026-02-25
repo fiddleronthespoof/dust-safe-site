@@ -12,6 +12,9 @@ task_category: demolition
 
 Breaking out small openings in masonry walls creates bursts of heavy dust and falling debris. Door widenings, service penetrations, and small knock-throughs often happen in enclosed or finished spaces, where dust spreads quickly.
 
+**Printable checklist for this type of work (PDF):**  
+👉 [Indoor Dust Control – 5 Quick Checklists (UK)](/downloads/indoor-dust-control-5-checklists-uk.pdf)
+
 Because the opening is “small,” controls are often minimal. The work is done dry, in open rooms, with cleanup left until the end. The dust cloud is intense, and it travels far beyond the wall being opened.
 
 Common ways small wall breakouts go wrong:
